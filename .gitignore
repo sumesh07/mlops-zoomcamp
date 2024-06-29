@@ -25,7 +25,14 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
-
+02-experiment-tracking/artifacts/*
+02-experiment-tracking/data/*
+02-experiment-tracking/mlruns/*
+02-experiment-tracking/models/*
+02-experiment-tracking/output/*
+02-experiment-tracking/mlflow.db
+02-experiment-tracking/requirements.txt
+mlruns/*
 # PyInstaller
 #  Usually these files are written by a python script from a template
 #  before PyInstaller builds the exe, so as to inject date/other infos into it.
